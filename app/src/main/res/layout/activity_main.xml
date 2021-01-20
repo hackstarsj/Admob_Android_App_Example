@@ -21,6 +21,20 @@
         android:layout_width="match_parent"
         android:layout_margin="10dp"
         android:layout_height="wrap_content"/>
+    <Button
+        android:layout_below="@id/show_int"
+        android:text="SHOW REWARD ACTIVITY"
+        android:layout_margin="10dp"
+        android:id="@+id/show_reward_activtiy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_below="@id/show_reward_activtiy"
+        android:text="SHOW NATIVE ADS ACTIVITY"
+        android:layout_margin="10dp"
+        android:id="@+id/show_native_activtiy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"

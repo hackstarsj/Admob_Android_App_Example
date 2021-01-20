@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">AdmobTestAppAndroid</string>
-<!--    LIVE ADMOB APP ID-->
-<!--    <string name="admob_app_id">PASTE YOUR LIVE ADMOB APP ID</string>-->
-<!--    <string name="banner_id">PASTE YOUR LIVE ADMOB BANNER ID</string>-->
-<!--    <string name="intersial_id">PASTE YOUR LIVE ADMOB InterstitialAd  ID</string>-->
+    <!--    LIVE ADMOB APP ID-->
+    <!--    <string name="admob_app_id">PASTE YOUR LIVE ADMOB APP ID</string>-->
+    <!--    <string name="banner_id">PASTE YOUR LIVE ADMOB BANNER ID</string>-->
+    <!--    <string name="intersial_id">PASTE YOUR LIVE ADMOB InterstitialAd  ID</string>-->
 
-<!--    TEST ADMOB APP ID-->
+    <!--    TEST ADMOB APP ID-->
     <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
     <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="intersial_id">ca-app-pub-3940256099942544/1033173712</string>

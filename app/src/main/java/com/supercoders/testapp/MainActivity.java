@@ -2,6 +2,7 @@ package com.supercoders.testapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +13,8 @@ import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.supercoders.testapp.nativeadsexample.NativeAdsExample;
+import com.supercoders.testapp.rewardadsexample.RewardActivityExample;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,6 +48,21 @@ public class MainActivity extends AppCompatActivity {
                     interstitialAd.show();
                     interstitialAd.loadAd(new AdRequest.Builder().build());
                 }
+            }
+        });
+
+        Button rewardpage=findViewById(R.id.show_reward_activtiy);
+        Button nativepage=findViewById(R.id.show_native_activtiy);
+        rewardpage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, RewardActivityExample.class));
+            }
+        });
+        nativepage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, NativeAdsExample.class));
             }
         });
     }
