@@ -11,12 +11,12 @@ Admob_Android_App_Example
 
 ## Reward Ads Example
 
-<img src="app4.png" style="width:100%" />
+<img src="app4.PNG" style="width:100%" />
 
 ## Native Ads Example
 
-<img src="app5.png" style="width:100%" />
+<img src="app5.PNG" style="width:100%" />
 
 ## App Example
 
-<img src="app3.png" style="width:100%" />
+<img src="app3.PNG" style="width:100%" />
